@@ -1,5 +1,5 @@
-# ncl-color-tables
-## color tables for and by NCAR NCL
+## ncl-color-tables
+### color tables for and by NCAR NCL
 
 This nice collection of color tables is provided at http://ncl.ucar.edu/Document/Graphics/color_tables.shtml
 
@@ -7,7 +7,7 @@ The repository if for use of those with D3 and x3dom.
 
 From the source:
 
-## Acknowledgments
+### Acknowledgments
 
 Several people have contributed color tables to NCL over the years:
 
