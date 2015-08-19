@@ -3,7 +3,13 @@
 
 This nice collection of color tables is provided at http://ncl.ucar.edu/Document/Graphics/color_tables.shtml
 
-The repository if for use of those with D3 and x3dom.
+The repository is for use of those with D3 and x3dom.
+Let's think about the json which most directly maps to d3.scale
+It would be d3.scale.linear().domain(cmap.domain).range(cmap.range)
+If domain would be normalized to [0,1[ it would make the scale easier to use but d3.range(0,1,1/steps) has floating point problems. This means, users of the not normalized scale function would need to scale their input to scale.domain.length which is somewhat inconvenient.
+
+
+
 
 From the source:
 
